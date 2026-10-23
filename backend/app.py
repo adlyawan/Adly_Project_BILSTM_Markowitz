@@ -342,9 +342,9 @@ def markowitz_optimize():
         'correlation': corr,
         'frontier': {'ret': sr, 'vol': sv, 'sharpe': ss},
         'portfolios': {
-            'max_sharpe': build_allocation(rs.x, '🌟 Max Sharpe Ratio'),
-            'min_vol':    build_allocation(rv.x, '🛡️ Min Volatilitas'),
-            'max_ret':    build_allocation(rr.x, '🚀 Max Return'),
+            'max_sharpe': build_allocation(rs.x, ' Max Sharpe Ratio'),
+            'min_vol':    build_allocation(rv.x, ' Min Volatilitas'),
+            'max_ret':    build_allocation(rr.x, ' Max Return'),
         },
         'last_prices': last_prices,
         'total_rows': len(close),

@@ -7,7 +7,7 @@ async function loadStockData() {
   clearAlert('technical-alert');
 
   const btn = document.getElementById('btn-load-data');
-  setBtnLoading(btn, true, 'Memuat…', '📊 Muat Data');
+  setBtnLoading(btn, true, 'Memuat…', ' Muat Data');
 
   try {
     const params = { ticker };
@@ -21,7 +21,7 @@ async function loadStockData() {
   } catch (e) {
     showAlert('technical-alert', 'error', e.message);
   } finally {
-    setBtnLoading(btn, false, '', '📊 Muat Data');
+    setBtnLoading(btn, false, '', ' Muat Data');
   }
 }
 

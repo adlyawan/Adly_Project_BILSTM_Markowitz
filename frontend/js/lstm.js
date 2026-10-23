@@ -13,7 +13,7 @@ async function trainLstmModel() {
 
   clearAlert('lstm-alert');
   const btn = document.getElementById('btn-train-lstm');
-  setBtnLoading(btn, true, 'Melatih…', '🧠 Latih Model');
+  setBtnLoading(btn, true, 'Melatih…', ' Latih Model');
   startFakeProgress(epochs);
 
   try {
@@ -29,7 +29,7 @@ async function trainLstmModel() {
     finishFakeProgress(false);
     showAlert('lstm-alert', 'error', e.message);
   } finally {
-    setBtnLoading(btn, false, '', '🧠 Latih Model');
+    setBtnLoading(btn, false, '', ' Latih Model');
   }
 }
 

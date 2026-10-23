@@ -31,7 +31,7 @@ async function optimizePortfolio() {
   const modal = Number(document.getElementById('modal').value) || 100000000;
 
   const btn = document.getElementById('btn-optimize');
-  setBtnLoading(btn, true, 'Mengoptimalkan…', '🌟 Optimalkan Portofolio');
+  setBtnLoading(btn, true, 'Mengoptimalkan…', ' Optimalkan Portofolio');
 
   try {
     const body = { tickers, n_simulations, risk_free_rate, modal };
@@ -44,7 +44,7 @@ async function optimizePortfolio() {
   } catch (e) {
     showAlert('portfolio-alert', 'error', e.message);
   } finally {
-    setBtnLoading(btn, false, '', '🌟 Optimalkan Portofolio');
+    setBtnLoading(btn, false, '', ' Optimalkan Portofolio');
   }
 }
 
