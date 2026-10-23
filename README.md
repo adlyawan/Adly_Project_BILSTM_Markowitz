@@ -1,4 +1,4 @@
-# KimiGold — Dashboard Saham BUMN
+#  Dashboard Saham BUMN
 
 Dashboard saham 20 perusahaan BUMN (BUMN20) dengan analisis teknikal, prediksi harga
 BiLSTM, dan optimasi portofolio Markowitz. Backend Flask + frontend HTML/CSS/JS murni
@@ -7,7 +7,7 @@ BiLSTM, dan optimasi portofolio Markowitz. Backend Flask + frontend HTML/CSS/JS 
 ## Struktur Folder
 
 ```
-kimigold/
+Dashboard/
 ├── backend/
 │   ├── app.py            # Flask API (yfinance, indikator, LSTM, Markowitz)
 │   └── requirements.txt
